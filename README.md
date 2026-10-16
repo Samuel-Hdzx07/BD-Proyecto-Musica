@@ -20,10 +20,10 @@ Sistema de visualización de datos sísmicos de México.
 
 ## Entregables
 
-### 1. Proyecto Propio (Plataforma de streaming de audio: canciones y podcasts)
+### 1. Proyecto Propio (Natayfy: red social musical, colaboración y marketplace)
 - [Requisitos Ampliados](proyecto-propio/requisitos-ampliados.pdf)
-- [Modelo EER - Notación Peter Chen](proyecto-propio/eer-chen.png)
-- [Modelo EER - Notación Crow's Feet](proyecto-propio/eer-crows-feet.png)
+- [Diagramas finales de Natayfy — archivo editable de draw.io](proyecto-propio/NATAYFY-DIAGRAMAS-FINALES.drawio)
+- El archivo incluye cuatro pestañas completas: ER, EER Chen, Crow's Foot y modelo relacional, con los nombres de los cuatro integrantes.
 - **Herramienta:** <draw.io>,  porque es fácil de usar, ofrece todas las formas de la notación Chen y Crow's Feet, y sus resultados son claros visualmente.
 
 ### 2. Proyecto Asignado (Sismos)
@@ -51,6 +51,7 @@ Sistema de visualización de datos sísmicos de México.
 Se utilizó inteligencia artificial generativa exclusivamente para:
 - **Gemini:** diagnóstico de errores de despliegue en Docker y configuración de puertos; sintaxis de comandos para consultas en PostgreSQL.
 - **Claude (Anthropic):** revisión de consistencia entre los modelos EER y los documentos, y sugerencias de estructura para este README.
+- **Codex (OpenAI):** apoyo en la ampliación, revisión y distribución visual de los cuatro diagramas de Natayfy y su archivo editable de draw.io.
 
 El contenido de los modelos, los resúmenes y las propuestas de mejora es de mi autoría.
 
