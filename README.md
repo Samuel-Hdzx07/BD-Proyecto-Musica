@@ -1,4 +1,4 @@
-# Práctica 2: Modelo Entidad-Relación Extendido: proyecto propio y proyecto asignado
+# Natfy: proyecto de red social musical
 
 ## Diagramas finales de Natfy
 
@@ -28,65 +28,43 @@ Tablas, columnas, tipos de datos, claves primarias, claves foráneas y conexione
 
 Las imágenes están disponibles en PNG y SVG. Haz clic en cada imagen para abrir la versión vectorial y ampliar los detalles.
 
----
-
-Repositorio de evidencias y entregables correspondientes a la Práctica 2 de la unidad de aprendizaje Bases de Datos.
-
-- **Nombre:** Hernandez Barrios, Samuel Rodrigo (Boleta: 2026630008)
-- **Grupo:** 3CV4
-- **Carrera:** Ingeniería en Sistemas Computacionales
-
-> Esta práctica se realizó de forma individual (sin equipo). Por ello, el Pull Request y el historial de confirmaciones corresponden a un solo integrante.
 
 ---
 
-## Proyecto Asignado: Sismos
-Sistema de visualización de datos sísmicos de México.
-- **Repositorio original:** https://github.com/gabrielhuav/Seismic-Data-Visualization-System
-- **Fork personal:** https://github.com/Samuel-Hdzx07/Seismic-Data-Visualization-System
-- **Confirmación (commit) puesta en funcionamiento:** `8569667cf4f46fab640dba3f82a7b324ca7efaf7`
+## Alcance del repositorio
 
----
+Natfy es el nombre provisional del proyecto propio: una red social musical con perfiles, publicaciones, seguidores, conversaciones, colaboración en proyectos y marketplace.
 
-## Entregables
+El proyecto asignado de Sismos y sus entregables continúan en [Proyecto-Asig-Sismos](https://github.com/Samuel-Hdzx07/Proyecto-Asig-Sismos). Sus resúmenes, propuestas, evidencias y cambios de esquema se trasladaron allí. Los issues históricos de Sismos conservan su dirección original; no se alteró su autoría ni se duplicaron como aportaciones nuevas.
 
-### 1. Proyecto Propio (Natfy: red social musical, colaboración y marketplace)
-- **Nombre provisional del proyecto:** Natfy.
-- [Requisitos Ampliados](proyecto-propio/requisitos-ampliados.pdf)
-- [Diagramas finales de Natfy — archivo editable de draw.io](proyecto-propio/NATFY-DIAGRAMAS-FINALES.drawio)
-- El archivo incluye cuatro pestañas completas: ER, EER Chen, Crow's Foot y modelo relacional, con los nombres de los cuatro integrantes.
-- **Herramienta:** <draw.io>,  porque es fácil de usar, ofrece todas las formas de la notación Chen y Crow's Feet, y sus resultados son claros visualmente.
+## Integrantes indicados en los materiales
 
-### 2. Proyecto Asignado (Sismos)
-- [Levantamiento y Evidencias (Docker/SQL)](proyecto-asignado/levantamiento.md)
-- [Capturas](proyecto-asignado/capturas/)
-- [Modelo EER del Proyecto Asignado](proyecto-asignado/eer.png)
-- [Correspondencia con el Esquema Publicado](proyecto-asignado/correspondencia-con-el-esquema.pdf)
+- Damas Garnica Adrian
+- Esparza Ramón Fernando Adán
+- Ramos Padrón Jesus Emmanuel
+- Hernandez Barrios Samuel Rodrigo (Boleta: 2026630008)
 
-### 3. Evidencias y Documentación Final
-- [Resúmenes de los artículos](evidencias/articulos/resumenes.pdf)
-- [Propuestas de mejora](evidencias/propuestas/propuestas-de-mejora.pdf)
-- [Presentación](evidencias/exposicion/presentacion.pdf)
-- [compose.yaml (Práctica 1)](entorno/compose.yaml)
+Grupo: 3CV4. Carrera: Ingeniería en Sistemas Computacionales. Los nombres se conservan del material recibido; la composición definitiva de los equipos separados debe confirmarse.
 
----
+## Práctica 1
 
-## Propuestas de Mejora (Issues)
-1. [Propuesta 1: Réplicas y secuencias sísmicas](https://github.com/Samuel-Hdzx07/Proyecto_BD/issues/2)
-2. [Propuesta 2: Placas tectónicas como contexto del sismo](https://github.com/Samuel-Hdzx07/Proyecto_BD/issues/3)
-3. [Propuesta 3: Municipios y localidades expuestas a un sismo](https://github.com/Samuel-Hdzx07/Proyecto_BD/issues/4)
+- [Investigación sobre bases de datos](docs/investigacion-bases-de-datos.pdf).
+- [Estado del arte](docs/estado-del-arte.pdf).
+- [Caso de estudio de Natfy](docs/caso-de-estudio.pdf).
+- [Git y Docker](docs/ejercicios-1-2-git-docker.pdf).
+- [Entorno PostgreSQL](entorno/compose.yaml).
 
----
+## Modelado y exposición de Natfy
 
-## Declaración de Integridad Académica e IA
-Se utilizó inteligencia artificial generativa exclusivamente para:
-- **Gemini:** diagnóstico de errores de despliegue en Docker y configuración de puertos; sintaxis de comandos para consultas en PostgreSQL.
-- **Claude (Anthropic):** revisión de consistencia entre los modelos EER y los documentos, y sugerencias de estructura para este README.
-- **Codex (OpenAI):** apoyo en la ampliación, revisión y distribución visual de los cuatro diagramas de Natfy y su archivo editable de draw.io.
+- [Requisitos ampliados](proyecto-propio/requisitos-ampliados.pdf).
+- [Archivo editable con cuatro pestañas](proyecto-propio/NATFY-DIAGRAMAS-FINALES.drawio).
+- [Presentación de Natfy en PDF](evidencias/exposicion/presentacion.pdf).
+- [Presentación editable](evidencias/exposicion/presentacion.pptx).
+- [Guion](evidencias/exposicion/guion.md).
+- [Estado de revisión](evidencias/revision-equipo.md).
 
-El contenido de los modelos, los resúmenes y las propuestas de mejora es de mi autoría.
+Herramienta de diagramación: draw.io, por su edición de las cuatro notaciones y exportación a PNG y SVG. Los cuatro diagramas aprobados se conservan sin cambios durante el traslado.
 
----
+## Integridad académica e IA
 
-## Bibliografía
-- Villa Vargas, J. M., Hurtado Avilés, G., y Climent Hernández, J. A. (2026). Cuando México tiembla: la historia contada por los datos. *AZCATL Revista de Divulgación de la Ciencia, la Ingeniería y la Innovación, 4*(6), 28–33. https://doi.org/10.24275/AZC2026E1004
+Codex (OpenAI) apoyó la revisión y distribución de diagramas, la actualización documental, los requisitos y la separación de la presentación por proyecto. Los integrantes deben revisar y comprender el material. Incluir un nombre en la portada no acredita participación ni sustituye una revisión real de un compañero.
